@@ -1,0 +1,70 @@
+body {
+background: #4633CC;
+font-family: Oswald;
+}
+input[type=text]{
+    text-align: center;
+    width:15%;
+}
+
+.loremlist{
+    text-transform: uppercase;
+    color: rgb(179, 95, 40);
+}
+
+textarea {
+    font-family: Oswald;
+    width: 80%;
+    height: 300px;
+    background-color: #A0C7FF;
+    color: #060038;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    font-family: Oswald;
+    background-color: #9D93E1;
+    color: #FFF1E0;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover, input[type=submit]:active {
+    border-radius: 10px;
+    background-color: #BD93E1;
+    color: white;
+}
+
+a:link, a:visited {
+    background-color: #A0A0FF;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:hover, a:active {
+    border-radius: 10px;
+    background-color: #BD93E1;
+    
+}
+
+
+.display {
+    position: relative;
+    text-align: center;
+        background: #FFF1E0;
+        display: inline-block;
+        width:40%;
+        padding: 20px;
+        margin: 5% 30%;
+        border: 5px solid #D893E1;
+        box-sizing: border-box;
+        COLOR: #CF824E;
+}
